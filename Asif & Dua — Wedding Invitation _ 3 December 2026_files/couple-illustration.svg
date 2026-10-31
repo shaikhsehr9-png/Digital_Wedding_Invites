@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="haloGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECC880"/>
+      <stop offset="50%" stop-color="#B38A50"/>
+      <stop offset="100%" stop-color="#805B24"/>
+    </linearGradient>
+
+    <radialGradient id="haloBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F7EFE5" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#EAD7C5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ECC880" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Halo -->
+  <circle cx="200" cy="200" r="165" fill="url(#haloBg)"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#haloGold)" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <circle cx="200" cy="200" r="178" fill="none" stroke="url(#haloGold)" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Botanical Wreath Surrounding Couple -->
+  <g fill="none" stroke="#B38A50" stroke-width="1.4">
+    <!-- Left Branch -->
+    <path d="M 70,250 C 40,170 80,90 160,50 C 190,35 220,35 250,45" opacity="0.8"/>
+    <!-- Right Branch -->
+    <path d="M 330,250 C 360,170 320,90 240,50" opacity="0.8"/>
+  </g>
+
+  <!-- Wreath Gold Leaves & Burgundy Berries -->
+  <g fill="#B38A50" opacity="0.75">
+    <ellipse cx="65" cy="210" rx="8" ry="4" transform="rotate(-30 65 210)"/>
+    <ellipse cx="58" cy="160" rx="9" ry="4.5" transform="rotate(-15 58 160)"/>
+    <ellipse cx="75" cy="115" rx="8" ry="4" transform="rotate(25 75 115)"/>
+    <ellipse cx="115" cy="75" rx="8.5" ry="4" transform="rotate(45 115 75)"/>
+    <ellipse cx="165" cy="50" rx="9" ry="4.5" transform="rotate(65 165 50)"/>
+
+    <ellipse cx="335" cy="210" rx="8" ry="4" transform="rotate(30 335 210)"/>
+    <ellipse cx="342" cy="160" rx="9" ry="4.5" transform="rotate(15 342 160)"/>
+    <ellipse cx="325" cy="115" rx="8" ry="4" transform="rotate(-25 325 115)"/>
+    <ellipse cx="285" cy="75" rx="8.5" ry="4" transform="rotate(-45 285 75)"/>
+  </g>
+
+  <g fill="#6F2638">
+    <circle cx="56" cy="185" r="4"/>
+    <circle cx="68" cy="138" r="3.5"/>
+    <circle cx="95" cy="92" r="4"/>
+    <circle cx="140" cy="58" r="3.5"/>
+
+    <circle cx="344" cy="185" r="4"/>
+    <circle cx="332" cy="138" r="3.5"/>
+    <circle cx="305" cy="92" r="4"/>
+  </g>
+
+  <!-- Romantic Line Art / Silhouette of Bride & Groom in Burgundy / Gold -->
+  <g stroke="#421522" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Groom Silhouette Lines -->
+    <!-- Head & Hair -->
+    <path d="M 160,140 C 158,125 168,110 185,110 C 195,110 205,116 208,128 C 210,136 205,142 205,148"/>
+    <!-- Collar & Tuxedo / Sherwani Lapel -->
+    <path d="M 172,154 L 176,170 L 165,220 L 140,290 L 125,340"/>
+    <path d="M 195,155 L 188,175 L 188,230 L 185,290 L 180,340"/>
+    <!-- Groom Shoulder -->
+    <path d="M 160,154 C 145,160 130,175 125,200 L 115,260"/>
+
+    <!-- Bride Silhouette Lines & Romantic Veil -->
+    <!-- Veil flowing back -->
+    <path d="M 225,122 C 245,130 270,155 285,210 C 295,250 290,300 285,340" stroke="#B38A50" stroke-width="1.8" stroke-dasharray="6,3" opacity="0.75"/>
+    <!-- Hair bun & Tiara/Headpiece -->
+    <path d="M 215,130 C 228,124 238,132 238,145 C 238,155 230,165 220,165"/>
+    <path d="M 220,128 C 224,124 228,124 232,126" stroke="#B38A50" stroke-width="2.5"/>
+    <!-- Bride Profile / Gentle Head Resting -->
+    <path d="M 216,145 C 212,148 208,154 208,160 C 212,168 220,172 225,178"/>
+    <!-- Bride Gown & Dress -->
+    <path d="M 222,180 C 230,195 240,225 248,270 L 260,340"/>
+    <path d="M 205,190 C 208,215 212,250 215,340"/>
+    
+    <!-- Arm Embracing -->
+    <path d="M 210,210 C 190,220 180,240 182,260"/>
+    <!-- Bridal Bouquet with Burgundy Peonies & Golden Leaves -->
+    <g transform="translate(192, 260)" stroke="none">
+      <circle cx="-6" cy="-4" r="8" fill="#6F2638"/>
+      <circle cx="6" cy="-6" r="7.5" fill="#8B263E"/>
+      <circle cx="2" cy="5" r="9" fill="#421522"/>
+      <circle cx="-1" cy="0" r="4" fill="#EAD7C5"/>
+      <path d="M -12,2 C -18,6 -16,12 -8,10 Z" fill="#B38A50"/>
+      <path d="M 12,0 C 18,4 16,10 8,8 Z" fill="#B38A50"/>
+      <path d="M 0,12 C 4,18 8,22 10,28" stroke="#B38A50" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+</svg>

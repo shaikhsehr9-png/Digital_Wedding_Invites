@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ringGold1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3D4"/>
+      <stop offset="30%" stop-color="#ECC880"/>
+      <stop offset="65%" stop-color="#B38A50"/>
+      <stop offset="100%" stop-color="#735022"/>
+    </linearGradient>
+
+    <linearGradient id="ringGold2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3D4"/>
+      <stop offset="35%" stop-color="#ECC880"/>
+      <stop offset="70%" stop-color="#B38A50"/>
+      <stop offset="100%" stop-color="#6F491A"/>
+    </linearGradient>
+
+    <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E1F5FE"/>
+      <stop offset="100%" stop-color="#B3E5FC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Ring (Groom band) -->
+  <ellipse cx="62" cy="65" rx="36" ry="32" fill="none" stroke="url(#ringGold1)" stroke-width="7" transform="rotate(-15 62 65)"/>
+  <ellipse cx="62" cy="65" rx="36" ry="32" fill="none" stroke="#FFEAA7" stroke-width="1.2" stroke-dasharray="8,50" opacity="0.9" transform="rotate(-15 62 65)"/>
+
+  <!-- Right Ring (Bride band with solitaire diamond) -->
+  <ellipse cx="98" cy="60" rx="34" ry="30" fill="none" stroke="url(#ringGold2)" stroke-width="6" transform="rotate(20 98 60)"/>
+  
+  <!-- Diamond Setting on Right Ring -->
+  <g transform="translate(118, 30)">
+    <!-- Prongs -->
+    <path d="M -5,10 L -2,4 L 2,4 L 5,10" fill="none" stroke="#D4AF37" stroke-width="1.8"/>
+    <!-- Diamond Gemstone Facets -->
+    <polygon points="0,-6 7,0 4,8 -4,8 -7,0" fill="url(#diamondGrad)" stroke="#B38A50" stroke-width="0.8"/>
+    <polygon points="0,-6 3,0 -3,0" fill="#FFFFFF" opacity="0.9"/>
+    <polygon points="-3,0 -4,8 0,8" fill="#B3E5FC" opacity="0.6"/>
+    <polygon points="3,0 4,8 0,8" fill="#E1F5FE" opacity="0.7"/>
+    <!-- Sparkle Flare -->
+    <path d="M 0,-14 L 1,-7 L 8,-6 L 1,-5 L 0,2 L -1,-5 L -8,-6 L -1,-7 Z" fill="#FFFFFF" opacity="0.95"/>
+    <circle cx="0" cy="-6" r="1.5" fill="#FFF"/>
+  </g>
+</svg>
